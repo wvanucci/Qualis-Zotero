@@ -1,4 +1,6 @@
 # Qualis-Zotero
+Acesse o arquivo [Inserir_Qualis](Inserir_QUALIS.ipynb)
+O arquivo dos [qualis](Qualis-2017-2020.csv) é da avaliação 2017-2020. Atualize caso não seja a atualizada
 # Tutorial de Configuração do Código
 ## Antes de começar, você precisará de alguns requisitos:
 

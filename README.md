@@ -28,9 +28,11 @@ API Key Zotero: Você precisará gerar uma chave de API do Zotero, que será usa
 
 - ID do Grupo: Vá até a página do seu grupo no Zotero. O ID do grupo geralmente aparece na URL do grupo. Exemplo: `https://www.zotero.org/groups/GROUPID/my_group`, onde GROUPID é o ID do grupo.
 
-- Chave da Coleção: Ao acessar a coleção, procure o ID único da coleção na URL, por exemplo: `https://www.zotero.org/groups/GROUPID/items/KEY_COLLECTION`, onde KEY_COLLECTION é a chave da coleção
-    - Outra alternativa é acessar `https://api.zotero.org/users/USER_ID/groups?key=API_KEY`, onde USER_ID é o user id do API e API_KEY é a chave
-
+- Chave da Coleção: Ao acessar a coleção, procure o ID único da coleção na URL, por exemplo: `https://www.zotero.org/groups/GROUPID/nome-do-grupo/collections/KEY_COLLECTION`, onde KEY_COLLECTION é a chave da coleção. Copie e cole somente a URLabaixo no navegador para encontrar a KEY_COLLECTION da coleção desejada:
+```markdown
+https://www.zotero.org/groups/GROUPID/nome-do-grupo/collections
+```
+    - Outras informações `https://api.zotero.org/users/USER_ID/groups?key=API_KEY`, onde USER_ID é o user id do API e API_KEY é a chave
 
 ### Passo 3: Configuração do Código
 - Agora, vamos configurar o código com suas próprias informações.

@@ -1,13 +1,10 @@
 # qualis-zotero
 
 Ferramenta para automatizar a verificação e classificação de artigos do Zotero com base na tabela Qualis CAPES, utilizando também a API do OpenAlex.
-<<<<<<< HEAD
-=======
 
 - instalação:  
 `!pip install qualis-zotero`
 
->>>>>>> 7ef9f66 (atualização 1)
 ## Antes de começar, você precisará de alguns requisitos:
 
 Python: O código foi escrito em Python. Você precisa ter o Python instalado em sua máquina. A versão recomendada é a Python 3.x.
@@ -50,8 +47,8 @@ https://www.zotero.org/groups/GROUPID/nome-do-grupo/collections
 - Atualiza os campos `ISSN` e `extra` nos itens Zotero.
 - Usa Fuzzy Matching como fallback quando o ISSN não está presente na base Qualis.
 
-<<<<<<< HEAD
-=======
+
+
 5. Exemplo de uso
 -----------------
 
@@ -74,19 +71,14 @@ Essa abordagem permite executar a análise diretamente via scripts, notebooks ou
 - Verificar a classificação Qualis com base no ISSN ou nome da revista
 - Atualizar automaticamente o campo *extra* do Zotero com o estrato Qualis
 - 
->>>>>>> 7ef9f66 (atualização 1)
+
 ## Instalação local
 
 Clone o repositório e instale localmente:
 
 ```bash
-<<<<<<< HEAD
-git clone https://github.com/wvanucci/Qualis-Zotero.git
-cd qualis-zotero
-pip install .
-=======
 git clone https://github.com/wvanucci/qualis-zotero.git
 cd qualis-zotero
 pip install .
 
->>>>>>> 7ef9f66 (atualização 1)
+

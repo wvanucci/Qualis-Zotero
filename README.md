@@ -36,7 +36,7 @@ API Key Zotero: Precisará gerar uma chave de API do Zotero, que será usada par
 - Chave da Coleção: Ao acessar a coleção, procure o ID único da coleção na (URL), por exemplo: `https://www.zotero.org/groups/GROUPID/nome-do-grupo/collections/KEY_COLLECTION`, onde KEY_COLLECTION é a chave da coleção. Copie e 
 cole somente a URL abaixo no navegador para encontrar a KEY_COLLECTION da coleção desejada: `https://www.zotero.org/groups/GROUPID/nome-do-grupo/collections`
 
-  - Outras informações: `https://api.zotero.org/users/USER_ID/groups?key=API_KEY`, onde USER_ID é o user id do API e API_KEY é a chave
+  - Outras informações: `https://api.zotero.org/users/USER_ID/groups?key=API_KEY`, onde USER_ID é o user ‘id’ do (API) e API_KEY é a chave
 
 ## Funcionamento
 
@@ -45,7 +45,7 @@ cole somente a URL abaixo no navegador para encontrar a KEY_COLLECTION da coleç
 - Atribui o estrato Qualis com base em base CSV fornecida:
     - Acesse o repositório [qualis-zotero](https://github.com/wvanucci/qualis-zotero) para ter acesso da base Qualis.csv do quadriênio 2017 – 2020 
 - Atualiza os campos `ISSN` e `extra` nos itens Zotero.
-- Usa Fuzzy Matching como fallback quando o ISSN não está presente na base Qualis.
+- Usa Fuzzy Correspondência como fallback quando o ISSN não está presente na base Qualis.
 
 
 
@@ -63,7 +63,7 @@ Exemplo de uso
 
     processar(**config)
 
-Essa abordagem permite executar a análise diretamente via scripts, notebooks ou no Google Colab.
+Essa abordagem permite executar a análise diretamente via script, notebook ou no Google Colab.
 
 ``qualis-zotero`` irá:
 
